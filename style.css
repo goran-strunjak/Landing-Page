@@ -1,0 +1,145 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* navbar start */
+
+.navbar {
+    background-color: #3a4d67;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;s
+    margin: 10px;
+}
+
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.links div {
+    margin: 0 5px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* navbar end */
+
+
+/* header section start*/
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    height: 500px;
+    padding: 50px;
+}
+
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-button button {
+    color: white;
+    font-weight: 700;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 5px;
+}
+
+.hero-image {
+    background-color: grey;
+    color: #e5e7eb;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header section end */
+
+/* icons section start */
+
+.icons-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0;
+    border: solid black;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.boxes-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes-text p {
+    width: 200px;
+    text-align: center;
+}
+
+.box {
+    border: solid #3882f6;
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+}
+
+.icons-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+
+/* icons section end */
