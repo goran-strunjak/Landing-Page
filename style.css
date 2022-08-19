@@ -104,8 +104,7 @@ a {
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: 60px 0;
-    border: solid black;
+    padding: 60px 0;
 }
 
 .boxes {
@@ -125,7 +124,7 @@ a {
 }
 
 .box {
-    border: solid #3882f6;
+    border: solid #3882f6 4px;
     border-radius: 4px;
     height: 100px;
     width: 100px;
@@ -140,6 +139,85 @@ a {
     font-weight: 700;
 }
 
-
-
 /* icons section end */
+
+/* quote section start */
+
+.quote-section {
+    background-color: lightgray;
+    color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    width: 800px;
+    display: flex;
+}
+
+.quote-name {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 600px;
+}
+
+/* quote section end */
+
+/* cta section start */
+
+.cta-section {
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    height: 150px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cta-box p:first {
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.cta-box p:last-child {
+    font-weight: 100;
+}
+
+.cta-button {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cta-button button {
+    width: 100px;
+    padding: 5px;
+    background-color: #3882f6;
+    border: solid white 1px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+}
+
+.cta-box-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+
+/* cta section end */
